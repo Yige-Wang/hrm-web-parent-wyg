@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hrm-web-plat:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hrm_web_plat_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hrm-web-plat/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hrm-web-plat" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
