@@ -12,6 +12,10 @@
       <el-button type="primary" style="width:100%;" @click.native.prevent="handleSubmit2" :loading="logining">登录</el-button>
       <!--<el-button @click.native.prevent="handleReset2">重置</el-button>-->
     </el-form-item>
+    <el-form-item style="width:100%;">
+      <el-button type="primary" style="width:100%;" @click.native.prevent="registerSubmit">公司入驻</el-button>
+      <!--<el-button @click.native.prevent="handleReset2">重置</el-button>-->
+    </el-form-item>
   </el-form>
 </template>
 
@@ -42,6 +46,9 @@
     methods: {
       handleReset2() {
         this.$refs.ruleForm2.resetFields();
+      },
+      registerSubmit(){
+        this.$router.push({ path: '/register' });
       },
       handleSubmit2(ev) {
         var _this = this;
