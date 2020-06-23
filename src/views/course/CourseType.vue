@@ -9,9 +9,9 @@
             </el-tree>
             <div v-show="menuVisible">
                 <ul id="menu" class="menu">
-                    <li class="menu__item">新增</li>
-                    <li class="menu__item">重命名</li>
-                    <li class="menu__item">删除</li>
+                    <li class="menu__item" @click="">新增</li>
+                    <li class="menu__item" @click="">编辑</li>
+                    <li class="menu__item" @click="">删除</li>
                 </ul>
             </div>
         </el-aside>
